@@ -443,11 +443,13 @@ img {
 
 .header{
     position: fixed;
-    top: 0;
+    top: -50px;
     left: 0;
     width: 100%;
-    transition: 1s linear;
+    background: #143463;
+    transition: 1.5s linear;
     padding-bottom: 20px;
+    z-index: 999;
 }
 
 
@@ -699,3 +701,51 @@ flex-direction: column;
     background-color: #1e5fb4 ;
 }
 /* Advantages styles end */
+/* video styles start */
+.video{
+    background: white;
+    
+    }
+    .video-title{
+        font-weight: normal;
+    font-size: 45px;
+    line-height: 50px;
+        padding-bottom: 200px;
+        color: white;
+    }
+/* video styles end */
+/* footer styles start */
+
+.footer{
+    background: #143463;
+    padding: 120px, 0px;
+}
+.footer_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_logo{
+    width: 60%;
+}
+.footer_nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-between;
+}
+.footer_menu-title{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;  
+    color: white;
+}
+.footer_menu-link{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.footer_menu-link:hover, .footer_menu-link:focus, .footer_menu-link:active{
+    opacity: .50;
+/* footer styles end */
